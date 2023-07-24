@@ -1,5 +1,5 @@
 export type AddCardType = {
   name: string;
   image: string;
-  price: number | null;
+  unit_amount: number | null;
 };
