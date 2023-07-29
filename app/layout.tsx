@@ -3,7 +3,7 @@ import Nav from "./componenents/Nav";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import Hydrate from "./componenents/Hydrate";
-import { Roboto, Lobster_two } from "next/font/google";
+import { Roboto, Lobster_Two } from "next/font/google";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -11,7 +11,7 @@ const roboto = Roboto({
   variable: "--font-robot",
 });
 
-const lobster = Roboto({
+const lobster = Lobster_Two({
   weight: "700",
   subsets: ["latin"],
   variable: "--font-lobster",
